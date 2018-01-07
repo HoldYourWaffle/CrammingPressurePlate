@@ -1,8 +1,8 @@
 [
 {
   "modid": "cramming",
-  "name": "Cramming Detector",
-  "description": "Super-weighted pressure plate with a maximum weight of the current maxEntityCramming gamerule. Can be configured to only give out a redstone signal when the maximum cramming is reached (default) or to spread out the increase of the signal like the other pressure plates",
+  "name": "CrammingPressurePlate",
+  "description": "Ultra weighted pressure plate with a maximum weight of the current maxEntityCramming gamerule. Can be configured to only give out a redstone signal when the maximum cramming is reached (default) or to spread out the increase of the signal like the other pressure plates",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

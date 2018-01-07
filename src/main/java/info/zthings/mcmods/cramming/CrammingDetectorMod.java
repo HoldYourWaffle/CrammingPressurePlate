@@ -30,7 +30,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @EventBusSubscriber
 public class CrammingDetectorMod {
 	public static final String MODID = "cramming";
-	public static final String VERSION = "0.0";
+	public static final String VERSION = "1.0";
 	
 	@Instance("cramming")
 	public static CrammingDetectorMod instance;

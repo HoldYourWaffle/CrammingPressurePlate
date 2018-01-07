@@ -10,8 +10,8 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "1.0"
-group = "info.zthings.mcmods.modid"
-archivesBaseName = "modid"
+group = "info.zthings.mcmods.cramming"
+archivesBaseName = "CrammingPressurePlate"
 
 sourceCompatibility = targetCompatibility = '1.8'
 compileJava { sourceCompatibility = targetCompatibility = '1.8' }
