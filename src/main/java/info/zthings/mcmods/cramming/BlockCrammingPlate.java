@@ -28,7 +28,6 @@ public class BlockCrammingPlate extends BlockPressurePlateWeighted {
 		maxWeight = max;
 	}
 	
-	//FIXME recipe
 	@Override
 	protected int computeRedstoneStrength(World worldIn, BlockPos pos) {
 		if (maxWeight < 0) return 0; //there is no entity limit so I can never be triggered
