@@ -11,7 +11,7 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
 public class BlockCrammingPlate extends BlockPressurePlateWeighted {
-	private final String name = "crammingplate";
+	private final String name = "cramming_plate";
 	protected int maxWeight;
 	
 	public BlockCrammingPlate() {
