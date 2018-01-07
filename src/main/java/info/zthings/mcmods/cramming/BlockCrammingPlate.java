@@ -25,6 +25,8 @@ public class BlockCrammingPlate extends BlockPressurePlateWeighted {
 		maxWeight = max;
 	}
 	
+	//FIXME material sounds
+	//FIXME recipe
 	//FIXME hardness/resistance
 	@Override
 	protected int computeRedstoneStrength(World worldIn, BlockPos pos) {
