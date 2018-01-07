@@ -1,6 +1,7 @@
 package info.zthings.mcmods.cramming;
 
 import net.minecraft.block.BlockPressurePlateWeighted;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -18,6 +19,8 @@ public class BlockCrammingPlate extends BlockPressurePlateWeighted {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.REDSTONE);
+		setHardness(0.5F);
+		setSoundType(SoundType.WOOD);
 	}
 	
 	public void setMaxWeight(int max) {
@@ -25,9 +28,7 @@ public class BlockCrammingPlate extends BlockPressurePlateWeighted {
 		maxWeight = max;
 	}
 	
-	//FIXME material sounds
 	//FIXME recipe
-	//FIXME hardness/resistance
 	@Override
 	protected int computeRedstoneStrength(World worldIn, BlockPos pos) {
 		if (maxWeight < 0) return 0; //there is no entity limit so I can never be triggered
